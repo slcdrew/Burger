@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>MVC With Burger!</title>
+    <link rel="shortcut icon" href="">
+    {{!-- <link rel="icon" href="/assets/images/burger.png"> --}}
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/assets/css/burger.css">
+  </head>
+
+  <body>
+    <div class="container">
+      <br>
+      <div class="row text-center">
+        <img src="/assets/images/burger.png" id="burgerPic" alt="burger">
+        <h1>Have a Burger!</h1>
+        <br>
+      </div>
+      <br><br>
+{{!-- Handlebars inserts here --}}
+      {{{body}}}
+
+      <br><br>
+      <form action="burger/create" method="POST"> 
+
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12 text-center enter_section">
+            <input type="text" class="form-control" name="burger_name" value="" id="new_burger">
+            <button type="submit" class="btn btn-success" id="submit-button">Submit</button>
+            </form>
+            <p>Enter a burger you want to eat Click the "Submit" button.</p>
+          </div>
+        </div>
+      </div>
+      <br>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  </body>
+</html>
