@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://https://github.com/mls912/burgerapp.git"
+    "url": "git+https://https://github.com/slcdrew/Burger"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/mls912/burgerapp/issues"
+    "url": "https://github.com/slcdrew/Burger/issues"
   },
-  "homepage": "https://github.com/mls912/burgerapp",
+  "homepage": "https://github.com/slcdrew/Burger",
   "dependencies": {
     "body-parser": "^1.18.2",
     "connection": "0.0.0",
